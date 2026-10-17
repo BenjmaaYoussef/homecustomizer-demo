@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Résidence Alba | Maison Alba</title>
+    <meta name="description" content="Faites pivoter la Résidence Alba, choisissez un étage et un appartement, voyez sa vue réelle, puis ses finitions et son prix en direct." />
+    <!-- a private demo: shared by link, kept out of search results -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#14242a" />
+
+    <!-- link previews (WhatsApp, iMessage, Messenger, LinkedIn, X) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Maison Alba" />
+    <meta property="og:title" content="Résidence Alba, Maison Alba" />
+    <meta property="og:description" content="Choisissez sols, murs et tissus. Rendu photoréaliste et prix en direct." />
+    <meta property="og:url" content="https://benjmaayoussef.github.io/homecustomizer-demo/" />
+    <meta property="og:image" content="https://benjmaayoussef.github.io/homecustomizer-demo/og.jpg" />
+    <meta property="og:image:secure_url" content="https://benjmaayoussef.github.io/homecustomizer-demo/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Un salon de la Résidence Alba : parquet en noyer, mur vert sauge et canapé en cuir cognac" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="og:locale:alternate" content="ar_TN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Résidence Alba, Maison Alba" />
+    <meta name="twitter:description" content="Choisissez sols, murs et tissus. Rendu photoréaliste et prix en direct." />
+    <meta name="twitter:image" content="https://benjmaayoussef.github.io/homecustomizer-demo/og.jpg" />
+    <meta name="twitter:image:alt" content="Un salon de la Résidence Alba : parquet en noyer, mur vert sauge et canapé en cuir cognac" />
+
+    <!-- the LCP image: the building's hero frame (04 = building.json turntable.hero; phones take 960,
+         or 1280 at 3x, as building.ts turnWidth() does), or the living room for customizer links -->
+    <script>
+      (function () {
+        var q = location.search, l = document.createElement("link");
+        var room = /[?&]v=(room|overview)/.test(q) || (/[?&](c|r)=/.test(q) && !/[?&]v=/.test(q));
+        var phone = matchMedia("(max-width: 600px), (max-height: 560px)").matches;
+        var w = phone ? ((window.devicePixelRatio || 1) > 2 ? 1280 : 960) : 1920;
+        l.rel = "preload"; l.as = "image"; l.setAttribute("fetchpriority", "high");
+        l.href = room ? "assets/living/base.1920.webp" : "assets/building/turn/04." + w + ".webp";
+        document.head.appendChild(l);
+      })();
+    </script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314242a'/%3E%3Cpath d='M9 23 16 8l7 15M12 17h8' stroke='%23c6a468' stroke-width='2' fill='none'/%3E%3C/svg%3E" />
+    <script defer src="./static/index-DTsn9XQa.js"></script>
+    <link rel="stylesheet" href="./static/style-DTIn8glH.css">
+  </head>
+  <body>
+    <div id="app" class="app"></div>
+    <noscript>Activez JavaScript pour composer votre appartement.</noscript>
+  </body>
+</html>
