@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1510 550" fill="none" stroke="#000" stroke-linecap="square">
+  <!-- 1 unit = 1 cm. viewBox = floor footprint (x -3.1..12.0 m, y 0..5.5 m, north up), so camera.json markers map 1:1 -->
+  <g stroke-width="14">
+    <path d="M10 7 V543 H970 V470 M970 380 V7"/>
+    <path d="M1000 7 V380 M1000 470 V543 H1500 V7"/>
+  </g>
+  <g stroke-width="3">
+    <path d="M10 3 H970 M10 11 H970 M1000 3 H1500 M1000 11 H1500"/>
+    <path d="M970 380 A90 90 0 0 0 880 470" stroke-width="2" opacity=".6"/>
+  </g>
+  <g stroke-width="3" opacity=".55">
+    <rect x="845" y="105" width="100" height="290" rx="14"/>
+    <rect x="560" y="385" width="240" height="105" rx="4"/>
+    <path d="M470 488 H870"/>
+    <circle cx="550" cy="150" r="66"/>
+    <circle cx="805" cy="250" r="38"/>
+    <rect x="1255" y="175" width="215" height="200" rx="8"/>
+    <rect x="1468" y="150" width="22" height="250" rx="4"/>
+    <rect x="1455" y="95" width="45" height="50"/>
+    <rect x="1455" y="405" width="45" height="50"/>
+    <path d="M1000 490 H1320"/>
+  </g>
+</svg>

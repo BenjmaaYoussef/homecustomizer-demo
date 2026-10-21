@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Résidence Alba · Douze appartements face à la mer</title>
+    <meta name="description" content="Douze appartements face à la mer. Choisissez votre étage, votre appartement et ses finitions, avec le prix, puis Sami vous appelle pour la visite." />
+    <!-- a demo with placeholder facts: shared by link, kept out of search results -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#14242a" />
+
+    <!-- link previews (WhatsApp, Messenger, iMessage) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Résidence Alba" />
+    <meta property="og:title" content="Résidence Alba · Douze appartements face à la mer" />
+    <meta property="og:description" content="Choisissez votre appartement et ses finitions, avec le prix. Sans engagement." />
+    <meta property="og:url" content="https://benjmaayoussef.github.io/homecustomizer-demo/" />
+    <meta property="og:image" content="https://benjmaayoussef.github.io/homecustomizer-demo/og.jpg" />
+    <meta property="og:image:secure_url" content="https://benjmaayoussef.github.io/homecustomizer-demo/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Un salon de la Résidence Alba : parquet en noyer, mur vert sauge et canapé en cuir cognac" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ar_TN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://benjmaayoussef.github.io/homecustomizer-demo/og.jpg" />
+
+    <!-- the first picture of whichever screen opens is the LCP: preload it at the size that screen loads
+         (the landing poster as home.ts picks it; the sea-side still 04 for step 1 and 2) -->
+    <script>
+      (function () {
+        var q = location.search, l = document.createElement("link"), href = null;
+        var v = (q.match(/[?&]v=(\w+)/) || [])[1] || "home";
+        var wide = matchMedia("(min-width: 900px)").matches, dpr = window.devicePixelRatio || 1;
+        if (v === "home") href = "media/landing/poster-" + (!wide ? "p" : dpr <= 1.5 ? "960" : "1280") + ".webp";
+        else if (v === "building" || v === "floor") href = "assets/building/stops/04." + (wide ? 1920 : Math.min(dpr, 2) > 1.5 ? 1280 : 960) + ".webp";
+        if (/[?&]l=ar/.test(q)) { document.documentElement.lang = "ar"; document.documentElement.dir = "rtl"; }
+        if (!href) return;
+        l.rel = "preload"; l.as = "image"; l.setAttribute("fetchpriority", "high"); l.href = href;
+        document.head.appendChild(l);
+      })();
+    </script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314242a'/%3E%3Cpath d='M9 23 16 8l7 15M12 17h8' stroke='%23c6a468' stroke-width='2' fill='none'/%3E%3C/svg%3E" />
+    <script defer src="./static/index-CKeWoVCC.js"></script>
+    <link rel="stylesheet" href="./static/style-B_SpGZAE.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>Activez JavaScript pour composer votre appartement.</noscript>
+  </body>
+</html>
